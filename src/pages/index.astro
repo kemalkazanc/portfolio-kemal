@@ -37,19 +37,22 @@ const projects = (await getCollection('work'))
 					tagline2="Trying to cause a positive impact through technology."
 					align="start"
 				>
-					<!-- <div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="Sporty-logo" size="1.33em" /> Sporty</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div> -->
+					<div class="roles">
+						<Pill><Icon icon="github-logo" size="1.33em" />GitHub</Pill>
+						<Pill><Icon icon="linkedin-logo" size="1.33em" />Linkedin</Pill>
+						<Pill><Icon icon="twitter-logo" size="1.33em" />Twitter</Pill>
+						<Pill><Icon icon="youtube-logo" size="1.33em" />Youtube</Pill>
+						<Pill><Icon icon="Email-logo" size="1.33em" />Message</Pill>
+					</div>
 				</Hero>
-
-				<img
-					alt="Kemal Kazanc Home Picture"
-					width="480"
-					height="480"
-					src="/assets/portrait.jpg"
-				/>
+				<div class="image">
+					<img
+						alt="Kemal Kazanc Home Picture"
+						width="290"
+						height="290"
+						src="/assets/portrait.jpg"
+					/>
+				</div>
 			</header>
 
 			<Skills />
@@ -122,10 +125,10 @@ const projects = (await getCollection('work'))
 	}
 
 	.hero img {
-		aspect-ratio: 5 / 4;
+		aspect-ratio: 4 / 4;
 		object-fit: cover;
 		object-position: top;
-		border-radius: 1.5rem;
+		border-radius: 50%;
 		box-shadow: var(--shadow-md);
 	}
 
@@ -143,9 +146,14 @@ const projects = (await getCollection('work'))
 			gap: 0.5rem;
 		}
 
+		.image{
+			display: flex;
+    	align-items: center;
+    	justify-content: flex-end;
+		}
 		.hero img {
-			aspect-ratio: 3 / 4;
-			border-radius: 4.5rem;
+			aspect-ratio: 4 / 4;
+			border-radius: 50%;
 			object-fit: cover;
 		}
 	}
