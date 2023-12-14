@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 ---
 
+<h2 class="skills_title">Skills</h2>
 <section class="box skills">
 	<div class="stack gap-2 lg:gap-4">
 			<Icon icon="pencil-line" color="var(--accent-regular)" size="2.5rem" gradient />
@@ -40,6 +41,9 @@ import Icon from './Icon.astro';
 		box-shadow: var(--shadow-sm);
 	}
 
+	.skills_title{
+			font-size: var(--text-3xl);
+		}
 	.skills {
 		display: flex;
 		flex-direction: column;
