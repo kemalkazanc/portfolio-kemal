@@ -3,11 +3,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import styles from '../styles/global.css';
 import { string } from 'astro/zod';
 ---
 
 <BaseLayout title="About | Kemal Kazanc" description="About Kemal Kazanc">
-	<div class="stack gap-20">
+	<div class="stack gap-10">
 		<h1>About</h1>
 		<main class="wrapper about content-start">
 			<Hero>
@@ -63,7 +64,6 @@ import { string } from 'astro/zod';
   gap: 3.5rem;
   align-self: start; /* Aligne le grid à gauche */
 }
-
 img {
   width: 100%; /* Assurez-vous que l'image prend 100% de la largeur de sa colonne */
   margin-top: 1.5rem;
