@@ -8,48 +8,45 @@ import { string } from 'astro/zod';
 
 <BaseLayout title="About | Kemal Kazanc" description="About Kemal Kazanc">
 	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About";
-				tagline='kemal'
-				tagline1=''
-				tagline2=''
-				subtitle=''
-			>
+		<h1>About</h1>
+		<main class="wrapper about content-start">
+			<Hero>
 				<img
-					width="1553"
-					height="873"
-					src="/public/assets/Kemal-work.jpeg"
+					width="400"
+					height="auto"
+					src="/public/assets/Kemal-work.jpg"
 					alt="Photo de profile about"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Entamé ma carrière en développement en 2020 avec une première formation axée sur la conception d'applications PHP Symfony.
-					</p>
-					<p>
-						J'ai évolué en tant que développeur Javascript React avec ma formation chez OpenClassrooms, j'ai contribué à divers projets, dont des sites e-commerce, et je continue de peaufiner mes compétences sur Frontendmentor.
-					</p>
-					<p>
-						Ma passion pour Javascript React m'inspire à maîtriser l'UX/UI à travers des formations continues et l'utilisation assidue d'outils tels que Figma et Photoshop Adobe.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Niveau BAC+2 Management des Unités Commerciales</p>
-					<p>BAC +3/4 Développeur d'Application JavaScript React</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>Leader, Curieux, Créatif, Autonome, Organisé, Dynamique</p>
-				</div>
+				<section>
+					<h2 class="section-title">Background</h2>
+					<div class="content">
+						<p>
+							Entamé ma carrière en développement en 2020 avec une première formation axée sur la conception d'applications PHP Symfony.
+						</p>
+						<p>
+							J'ai évolué en tant que développeur Javascript React avec ma formation chez OpenClassrooms, j'ai contribué à divers projets, dont des sites e-commerce, et je continue de peaufiner mes compétences sur Frontendmentor.
+						</p>
+						<p>
+							Ma passion pour Javascript React m'inspire à maîtriser l'UX/UI à travers des formations continues et l'utilisation assidue d'outils tels que Figma et Photoshop Adobe.
+						</p>
+					</div>
+				</section>
+				<section>
+					<h2 class="section-title">Education</h2>
+					<div class="content">
+						<p>Niveau BAC+2 Management des Unités Commerciales</p>
+						<p>BAC +3/4 Développeur d'Application JavaScript React</p>
+					</div>
+				</section>
+				<section>
+					<h2 class="section-title">Skills</h2>
+					<div class="content">
+						<p>Leader, Curieux, Créatif, Autonome, Organisé, Dynamique</p>
+					</div>
+				</section>
 			</section>
 		</main>
 
@@ -58,59 +55,55 @@ import { string } from 'astro/zod';
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divise le main en deux colonnes égales */
+  grid-template-rows: auto; /* Définit une seule ligne pour chaque section */
+  gap: 3.5rem;
+  align-self: start; /* Aligne le grid à gauche */
+}
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+img {
+  width: 100%; /* Assurez-vous que l'image prend 100% de la largeur de sa colonne */
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-md);
+}
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--gray-200);
+}
 
-	.content {
-		grid-column: 2 / 4;
-	}
+.section-title {
+  font-size: var(--text-xl);
+  color: var(--gray-0);
+}
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+.content {
+  margin-top: 1.5rem; /* Ajoute une marge en haut pour l'espace */
+}
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+@media (min-width: 50em) {
+  .about {
+    grid-template-columns: 1fr 1fr; /* Vous pouvez ajuster cela en fonction de votre mise en page */
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  img {
+    width: auto; /* Rétablissez la largeur automatique pour l'image */
+    order: 2; /* Change l'ordre de l'image à la 2ème colonne */
+  }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+  section {
+    order: 1; /* Change l'ordre de la section à la 1ère colonne */
+  }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+  .section-title {
+    font-size: var(--text-lg);
+  }
+}
+
 </style>
