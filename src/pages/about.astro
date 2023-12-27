@@ -8,17 +8,18 @@ import { string } from 'astro/zod';
 
 <BaseLayout title="About | Kemal Kazanc" description="About Kemal Kazanc">
 	<div class="stack gap-10">
-		<h1>About</h1>
+		<div class="aboutContainer_title">
+			<h1 class="about_title">About</h1>
+		</div>
 		<main class="wrapper about grid items-center">
-			<Hero>
-				<img
-					width="400"
-					height="auto"
-					src="/public/assets/Kemal-work.jpg"
-					alt="Photo de profile about"
-				/>
-			</Hero>
-
+			<div class="container_img">
+				<img class="img_work"
+				width="450"
+				height="auto"
+				src="/public/assets/Kemal-work.jpg"
+				alt="Photo de profile about"
+			/>
+			</div>
 			<section>
 				<section>
 					<h2 class="section-title">Background</h2>
@@ -55,6 +56,15 @@ import { string } from 'astro/zod';
 </BaseLayout>
 
 <style>
+
+.aboutContainer_title{
+	display: flex;
+	justify-content: center;
+}
+
+.about_title{
+	font-size: var(--text-4xl);
+}
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Divise le main en deux colonnes égales */
@@ -62,11 +72,16 @@ import { string } from 'astro/zod';
   gap: 3.5rem;
   align-self: start; /* Aligne le grid à gauche */
 }
-img {
-  width: 100%; /* Assurez-vous que l'image prend 100% de la largeur de sa colonne */
-  margin-top: 1.5rem;
+
+.container_img{
+	display: flex;
+	justify-content: flex-end;
+}
+.img_work {
   border-radius: 1.5rem;
   box-shadow: var(--shadow-md);
+	display: flex;
+	width: 80%;
 }
 
 section {
@@ -82,7 +97,7 @@ section {
 }
 
 .content {
-  margin-top: 1.5rem; /* Ajoute une marge en haut pour l'espace */
+	margin-bottom: 1.5rem;
 }
 
 @media (min-width: 50em) {
@@ -90,8 +105,7 @@ section {
     grid-template-columns: 1fr 1fr; /* Vous pouvez ajuster cela en fonction de votre mise en page */
   }
 
-  img {
-    width: auto; /* Rétablissez la largeur automatique pour l'image */
+  .container_img {
     order: 2; /* Change l'ordre de l'image à la 2ème colonne */
   }
 
@@ -100,7 +114,7 @@ section {
   }
 
   .section-title {
-    font-size: var(--text-lg);
+    font-size: var(--text-xl);
   }
 }
 

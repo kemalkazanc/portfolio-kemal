@@ -4,18 +4,20 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer>
-	<div class="group">
-		<p>
-			Designed & built by Kemal Kazanc <a href="https://astro.build/">Astro</a>
-			<Icon icon="rocket-launch" size="1.2em" />
-		</p>
-		<p>&copy; {currentYear} Kemal Kazanc</p>
-	</div>
-	<p class="socials">
-		<a href="https://twitter.com/KemalKazanc9"> Twitter</a>
-		<a href="https://github.com/kemalkazanc"> GitHub</a>
-		<a href="https://www.linkedin.com/in/kemal-kazanc-a6611a22b/"> Linkedin</a>
-	</p>
+  <div class="group">
+    <div class="flex items-center">
+      <p>
+        Designed & built by Kemal Kazanc <a href="https://astro.build/">Astro </a>
+      </p>
+      <Icon icon="rocket-launch" size="1.2em" />
+    </div>
+    <p>&copy; {currentYear} Kemal Kazanc</p>
+  </div>
+  <p class="socials">
+    <a href="https://github.com/kemalkazanc"> GitHub</a>
+    <a href="https://twitter.com/KemalKazanc9"> Twitter</a>
+    <a href="https://www.linkedin.com/in/kemal-kazanc-a6611a22b/"> Linkedin</a>
+  </p>
 </footer>
 <style>
 	footer {
@@ -63,7 +65,7 @@ const currentYear = new Date().getFullYear();
 
 		.group {
 			flex-direction: row;
-			gap: 1rem;
+			/* gap: 1rem; */
 			flex-wrap: wrap;
 		}
 
