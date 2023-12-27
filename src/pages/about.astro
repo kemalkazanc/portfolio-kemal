@@ -3,14 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
-import styles from '../styles/global.css';
 import { string } from 'astro/zod';
 ---
 
 <BaseLayout title="About | Kemal Kazanc" description="About Kemal Kazanc">
 	<div class="stack gap-10">
 		<h1>About</h1>
-		<main class="wrapper about content-start">
+		<main class="wrapper about grid items-center">
 			<Hero>
 				<img
 					width="400"
@@ -25,7 +24,7 @@ import { string } from 'astro/zod';
 					<h2 class="section-title">Background</h2>
 					<div class="content">
 						<p>
-							Entamé ma carrière en développement en 2020 avec une première formation axée sur la conception d'applications PHP Symfony.
+							Entamer ma carrière en développement en 2020 avec une première formation axée sur la conception d'applications PHP Symfony.
 						</p>
 						<p>
 							J'ai évolué en tant que développeur Javascript React avec ma formation chez OpenClassrooms, j'ai contribué à divers projets, dont des sites e-commerce, et je continue de peaufiner mes compétences sur Frontendmentor.
@@ -56,7 +55,6 @@ import { string } from 'astro/zod';
 </BaseLayout>
 
 <style>
-
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Divise le main en deux colonnes égales */
