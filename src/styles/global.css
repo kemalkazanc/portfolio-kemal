@@ -188,7 +188,7 @@ h4 {
 }
 
 h5 {
-  font-size: var(--text-xl);
+  font-size: var(--text-md);
 }
 
 /* Utilities */

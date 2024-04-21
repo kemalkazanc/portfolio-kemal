@@ -1,40 +1,53 @@
 ---
 import Icon from './Icon.astro';
-
 ---
 
 <h2 class="skills_title text-center">Skills</h2>
-<section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-			<Icon icon="pencil-line" color="var(--accent-regular)" size="2.5rem" gradient />
-			<h2>Design</h2>
-		<p color="gradiant_p">Figma</p>
+<section class="skills">
+	<div class="skill-card">
+		<Icon icon="pencil-line" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h3>Design</h3>
+		<p>Figma</p>
 		<p>Tailwind</p>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
+	<div class="skill-card">
 		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Front-end</h2>
-		<p>React </p>
-		<p>Typescript </p>
+		<h3>Front-end</h3>
+		<p>React</p>
+		<p>Typescript</p>
 		<p>Sass</p>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
+	<div class="skill-card">
 		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Back-end</h2>
+		<h3>Back-end</h3>
 		<p>Symfony</p>
 		<p>Csharp</p>
 		<p>MySQL</p>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
+	<div class="skill-card">
 		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Other</h2>
+		<h3>Other</h3>
 		<p>Git & Github</p>
 		<p>Jira</p>
 	</div>
 </section>
 
 <style>
-	.box {
+	/* Styles de base pour la section skills */
+	.skills_title {
+		font-size: var(--text-3xl);
+		margin-bottom: 1rem;
+	}
+
+	/* Disposition en grille pour la section skills */
+	.skills {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonne de taille minimale de 200px */
+		gap: 1rem; /* Espace entre les cards */
+	}
+
+	/* Styles pour chaque card de compétence */
+	.skill-card {
 		border: 1px solid var(--gray-800);
 		border-radius: 0.75rem;
 		padding: 1.5rem;
@@ -42,42 +55,13 @@ import Icon from './Icon.astro';
 		box-shadow: var(--shadow-sm);
 	}
 
-	.skills_title{
-			font-size: var(--text-3xl);
-		}
-	.skills {
-		display: flex;
-		flex-direction: column;
-		gap: 3rem;
-	}
-
-
-	.skills h2 {
+	.skill-card h3 {
 		font-size: var(--text-lg);
+		margin: 0 0 10px 0;
 	}
 
-	.skills p {
+	.skill-card p {
 		color: var(--gray-400);
-	}
-
-	.gradiant_p{
-		color: var(--accent-regular)
-	}
-
-	@media (min-width: 50em) {
-		.box {
-			border-radius: 1.5rem;
-			padding: 2.5rem;
-		}
-
-		.skills {
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			gap: 5rem;
-		}
-
-		.skills h2 {
-			font-size: var(--text-2xl);
-		}
+		margin: 0.5rem 0;
 	}
 </style>
