@@ -281,7 +281,6 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	}
 
 	@media (min-width: 23.43em) {
-		/* .menu-footer */
 		/* .menu-footer{
 			display: none;
 		} */
@@ -295,9 +294,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		}
 	}
 
-	@media (min-width: 24em) {
 
-	}
 	@media (min-width: 50em) {
 		nav {
 			/* display: grid;
@@ -318,7 +315,6 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 		.menu-content {
 			display: flex;
-
 		}
 
 		.nav-items {
@@ -370,11 +366,16 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			box-shadow: none;
 		}
 
-		.socials {
+		/* .socials {
 			display: none;
-		}
+		} */
 	}
 
+	@media (min-width: 335px) and (max-width: 945px) {
+    .menu-footer {
+        display: none;
+    }
+}
 	@media (min-width: 60em) {
 		.socials {
 			display: flex;

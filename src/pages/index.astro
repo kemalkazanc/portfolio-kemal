@@ -43,7 +43,7 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="linkedin-logo" size="1.33em" />Linkedin</Pill>
 						<Pill><Icon icon="twitter-logo" size="1.33em" />Twitter</Pill>
 						<Pill><Icon icon="youtube-logo" size="1.33em" />Youtube</Pill>
-						<Pill><Icon icon="Email-logo" size="1.33em" />Message</Pill>
+						<Pill><Icon icon="Email-logo" size="1.33em" />Message </Pill>
 					</div>
 				</Hero>
 				<div class="image">
@@ -55,7 +55,12 @@ const projects = (await getCollection('work'))
 					/>
 				</div>
 			</header>
-
+			<div class="download">
+				<a href="/chemin/vers/mon-fichier.pdf" download="KemalCV.pdf" class="btn">
+					<Icon icon="Download-logo" size="1.33em" />
+					Dowload CV
+				</a>
+		</div>
 			<Skills />
 		</div>
 
@@ -134,6 +139,28 @@ const projects = (await getCollection('work'))
 		border-radius: 50%;
 		box-shadow: var(--shadow-md);
 	}
+
+	.download{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.pill {
+		display: flex;
+		padding: 0.5rem 1rem;
+		gap: 0.5rem;
+		color: var(--accent-text-over);
+		border: 1px solid var(--accent-regular);
+		background-color: var(--accent-regular);
+		border-radius: 999rem;
+		font-size: var(--text-md);
+		line-height: 1.35;
+		white-space: nowrap;
+	}
+
+.btn-download-cv:hover {
+    background-color: #0056b3; /* Couleur de fond plus foncée lors du survol */
+}
 
 	@media (min-width: 50em) {
 		.hero {
