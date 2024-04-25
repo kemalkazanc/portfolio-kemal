@@ -92,7 +92,18 @@ section {
 .content {
 	margin-bottom: 1.5rem;
 }
-
+/* Réglages pour les tailles d'écran plus petites (en-dessous de 50em) */
+@media (min-width: 335px) and (max-width: 600px) {
+  .about {
+    display: flex; /* Utilise le mode flex */
+    flex-direction: column; /* Dispose les éléments en colonne */
+  }
+	.container_img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
 @media (min-width: 50em) {
   .about {
     grid-template-columns: 1fr 1fr; /* Vous pouvez ajuster cela en fonction de votre mise en page */
