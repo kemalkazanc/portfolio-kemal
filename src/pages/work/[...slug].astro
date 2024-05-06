@@ -33,7 +33,7 @@ const { Content } = await entry.render();
 			<header>
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
-					<Hero title={entry.data.title} subtitle="subtitle" tagline="tagline" align="start">
+					<Hero title={entry.data.title} subtitle="subtitle" tagline="tagline" tagline1="tagline1" tagline2="tagline2" align="start">
 						<div class="details">
 							<div class="tags">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
