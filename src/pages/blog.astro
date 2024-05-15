@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+
+const pageTitle = "Wsh la famille";
+const identity = {
+  firstName: "Sarah",
+  country: "Canada",
+  occupation: "Technical Writer",
+  hobbies: ["photography", "birdwatching", "baseball"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+
+const happy = true;
+const finished = false;
+const goal = 3;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <BaseLayout title="My Blog | Kemal Kazanc"
+    description="Discover my recent projects">
+    <div class="stack gap-20">
+      <main class="wrapper stack gap-8">
+        <div class="flex place-content-center">
+          <h1 class="work_title">Mon Blog</h1>
+        </div>
+
+      </main>
+
+
+    </BaseLayout>
+  </body>
+
