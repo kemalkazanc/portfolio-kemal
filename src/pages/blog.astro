@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
-import Nav from "../components/Nav.astro";
 
 const pageTitle = "Wsh la famille";
 const identity = {
@@ -24,7 +23,16 @@ const goal = 3;
     <title>{pageTitle}</title>
   </head>
   <body>
-    <BaseLayout>
+    <BaseLayout title="My Blog | Kemal Kazanc"
+    description="Discover my recent projects">
+    <div class="stack gap-20">
+      <main class="wrapper stack gap-8">
+        <div class="flex place-content-center">
+          <h1 class="work_title">Mon Blog</h1>
+        </div>
+
+      </main>
+
       <h1>{pageTitle}</h1>
       <h1>Test</h1>
       <h2>... and my new Astro site!</h2>
