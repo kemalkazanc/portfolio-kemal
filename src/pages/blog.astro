@@ -1,19 +1,9 @@
 ---
+import ProjectSection  from "../components/ProjectSection.jsx
 import BaseLayout from "../layouts/BaseLayout.astro"
 
 const pageTitle = "Wsh la famille";
-const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
-};
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = false;
-const goal = 3;
 ---
 
 <html lang="en">
@@ -30,8 +20,26 @@ const goal = 3;
         <div class="flex place-content-center">
           <h1 class="work_title">Mon Blog</h1>
         </div>
-
+        <ProjectSection client:visible/>
       </main>
     </BaseLayout>
-  </body>
+    <section class="flex justify-center items-center h-screen">
+      <div class="max-w-83rem">
+        <h2 class="text-3xl font-bold mb-6">Mes Projets</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <!-- Boucle pour chaque projet -->
+          <!-- Remplacez les données statiques par les détails de vos projets récupérés depuis GitHub -->
+          <!-- Vous pouvez utiliser les données récupérées depuis GitHub pour les remplacer -->
+          <div class="flex items-center">
+            <img class="w-16 h-16 mr-4" src="/public/assets/stock-1.jpg" alt="Image du projet">
+            <div>
+              <h3 class="text-xl font-semibold">Titre du Projet</h3>
+              <p class="text-gray-600">Description courte du projet</p>
+            </div>
+          </div>
+          <!-- Fin de la boucle -->
+        </div>
+      </div>
+    </section>
+</body>
 
