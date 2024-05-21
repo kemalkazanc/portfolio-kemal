@@ -191,6 +191,11 @@ h5 {
   font-size: var(--text-md);
 }
 
+.content {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
 /* Utilities */
 
 .sr-only {
