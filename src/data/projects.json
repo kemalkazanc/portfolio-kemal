@@ -2,78 +2,78 @@
   {
     "id": 1,
     "name": "Project Kasa",
-    "description": "Ce projet à été réaliser lores de ma formation chez openclassroom.  ",
-    "image": "/assets/stock-1.jpg",
+    "description": "Ce projet à été réaliser lores de ma formation chez openclassroom. ",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project1"
   },
   {
     "id": 2,
     "name": "Project 2",
     "description": "Description of Project 2",
-    "im/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project2"
   },
   {
     "id": 3,
     "name": "Project 3",
     "description": "Description of Project 3",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
     "id": 4,
     "name": "Project 4",
     "description": "Description of Project 4",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
     "id": 5,
     "name": "Project 1",
     "description": "Description of Project 5",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project1"
   },
   {
     "id": 6,
     "name": "Project 2",
     "description": "Description of Project 6",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project2"
   },
   {
     "id": 7,
     "name": "Project 3",
     "description": "Description of Project 7",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
     "id": 8,
     "name": "Project 4",
     "description": "Description of Project 8",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
     "id": 9,
     "name": "Project 1",
     "description": "Description of Project 9",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project1"
   },
   {
     "id": 10,
     "name": "Project 2",
     "description": "Description of Project 10",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project2"
   },
   {
     "id": 11,
     "name": "Project 3",
     "description": "Description of Project 11",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-5.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
@@ -87,28 +87,28 @@
     "id": 13,
     "name": "Project 1",
     "description": "Description of Project 13",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project1"
   },
   {
     "id": 14,
     "name": "Project 2",
     "description": "Description of Project 14",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project2"
   },
   {
     "id": 15,
     "name": "Project 3",
     "description": "Description of Project 15",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
     "id": 16,
     "name": "Project 4",
     "description": "Description of Project 16",
-    "image": "/assets/stock-1.jpg",
+    "image": "/assets/stock-2.jpg",
     "externalLink": "https://example.com/project3"
   }
 ]
