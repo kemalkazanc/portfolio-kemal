@@ -9,7 +9,7 @@
   {
     "id": 2,
     "name": "Project 2",
-    "description": "Description of Project 2",
+    "description": "Description of Project 2. Ce projet à été réaliser lores de ma formation chez openclassroom. Description of Project 2. Ce projet à été réaliser lores de ma formation chez openclassroom. Description of Project 2. Ce projet à été réaliser lores de ma formation chez openclassroom.",
     "image": "/assets/stock-3.jpg",
     "externalLink": "https://example.com/project2"
   },
@@ -73,7 +73,7 @@
     "id": 11,
     "name": "Project 3",
     "description": "Description of Project 11",
-    "image": "/assets/stock-5.jpg",
+    "image": "/assets/stock-4.jpg",
     "externalLink": "https://example.com/project3"
   },
   {
