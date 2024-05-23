@@ -1,67 +1,85 @@
 ---
 import Icon from './Icon.astro';
+import SkillsLogo from './SkillsLogo.astro';
 ---
 
 <h2 class="skills_title text-center">Skills</h2>
 <section class="skills">
-	<div class="skill-card">
-		<Icon icon="pencil-line" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h3>Design</h3>
-		<p>Figma</p>
-		<p>Tailwind</p>
-	</div>
-	<div class="skill-card">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h3>Front-end</h3>
-		<p>React</p>
-		<p>Typescript</p>
-		<p>Sass</p>
-	</div>
-	<div class="skill-card">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h3>Back-end</h3>
-		<p>Symfony</p>
-		<p>Csharp</p>
-		<p>MySQL</p>
-	</div>
-	<div class="skill-card">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h3>Other</h3>
-		<p>Git & Github</p>
-		<p>Jira</p>
-	</div>
+  <div class="skill-card flex flex-col">
+    <div class="flex items-center justify-center gap-3.5">
+      <Icon icon="pencil-line" color="var(--accent-regular)" size="2.5rem" gradient />
+      <h3 class="">Design</h3>
+    </div>
+    <div>
+      <SkillsLogo><Icon icon="Figma-logo" size="1.5em" />Figma</SkillsLogo>
+      <SkillsLogo><Icon icon="Tailwind-logo" size="1.5em" />Tailwind</SkillsLogo>
+      <SkillsLogo><Icon icon="Bootstrap-logo" size="1.5em" />Bootstrap</SkillsLogo>
+    </div>
+  </div>
+  <div class="skill-card flex flex-col">
+    <div class="flex items-center justify-center gap-3.5">
+      <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+      <h3>Front-end</h3>
+    </div>
+    <div>
+      <SkillsLogo><Icon icon="JavaScript-logo" size="1.5em" />JavaScript</SkillsLogo>
+      <SkillsLogo><Icon icon="React-logo" size="1.5em" />React</SkillsLogo>
+      <SkillsLogo><Icon icon="TypeScript-logo" size="1.5em" />Typescript</SkillsLogo>
+      <SkillsLogo><Icon icon="Sass-logo" size="1.5em" />Sass</SkillsLogo>
+    </div>
+  </div>
+  <div class="skill-card flex flex-col">
+    <div class="flex items-center justify-center gap-3.5">
+      <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+      <h3>Back-end</h3>
+    </div>
+    <div>
+      <SkillsLogo><Icon icon="Astro-logo" size="1.5em" />Astro</SkillsLogo>
+      <SkillsLogo><Icon icon="MySQL-logo" size="1.5em" />MySQL</SkillsLogo>
+      <SkillsLogo><Icon icon="PostgreSql-logo" size="1.5em" />PostgreSQL</SkillsLogo>
+      <SkillsLogo><Icon icon="Csharp-logo" size="1.5em" />C#</SkillsLogo>
+      <SkillsLogo><Icon icon="Php-logo" size="1.5em" />Php</SkillsLogo>
+    </div>
+  </div>
+  <div class="skill-card flex flex-col">
+    <div class="flex items-center justify-center gap-3.5">
+      <Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+      <h3>Other</h3>
+    </div>
+    <div>
+      <SkillsLogo><Icon icon="Git-logo" size="1.5em" />Git</SkillsLogo>
+      <SkillsLogo><Icon icon="Github-logo" size="1.5em" />Github</SkillsLogo>
+      <SkillsLogo><Icon icon="Netlify-logo" size="1.5em" />Netlify</SkillsLogo>
+    </div>
+  </div>
 </section>
 
 <style>
-	/* Styles de base pour la section skills */
-	.skills_title {
-		font-size: var(--text-3xl);
-		margin-bottom: 1rem;
-	}
+  .skills_title {
+    font-size: var(--text-3xl);
+    margin-bottom: 1rem;
+  }
 
-	/* Disposition en grille pour la section skills */
-	.skills {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonne de taille minimale de 200px */
-		gap: 1rem; /* Espace entre les cards */
-	}
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
 
-	/* Styles pour chaque card de compétence */
-	.skill-card {
-		border: 1px solid var(--gray-800);
-		border-radius: 0.75rem;
-		padding: 1.5rem;
-		background-color: var(--gray-999_40);
-		box-shadow: var(--shadow-sm);
-	}
+  .skill-card {
+    border: 1px solid var(--gray-800);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    background-color: var(--gray-999_40);
+    box-shadow: var(--shadow-sm);
+  }
 
-	.skill-card h3 {
-		font-size: var(--text-lg);
-		margin: 0 0 10px 0;
-	}
+  .skill-card h3 {
+    font-size: var(--text-2xl);
+  }
 
-	.skill-card p {
-		color: var(--gray-400);
-		margin: 0.5rem 0;
-	}
+  .skill-card p {
+    color: var(--gray-400);
+    margin: 0.5rem 0;
+  }
 </style>
