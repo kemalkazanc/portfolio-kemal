@@ -57,9 +57,16 @@ const projects = (await getCollection('work'))
 			</header>
 			<div class="download">
 				<a href="/chemin/vers/mon-fichier.pdf" download="KemalCV.pdf" class="btn">
-					<Icon icon="Download-logo" size="1.33em" />
-					Dowload CV
+					<button class="h-12 mx-2 w-32 bg-gradient-to-br from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600 text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 animate-shake">
+						<Icon icon="Download-logo" size="1.33em" />
+						Button
+					</button>
 				</a>
+				<button class="h-12 mx-2 w-32 bg-gradient-to-br from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600 text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 animate-pulse">
+					<Icon icon="Download-logo" size="1.33em" />
+					Button
+				</button>
+
 		</div>
 			<Skills />
 		</div>
@@ -158,9 +165,47 @@ const projects = (await getCollection('work'))
 		white-space: nowrap;
 	}
 
-.btn-download-cv:hover {
-    background-color: #0056b3; /* Couleur de fond plus foncée lors du survol */
-}
+	.btn-download-cv:hover {
+			background-color: #0056b3; /* Couleur de fond plus foncée lors du survol */
+	}
+
+	@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+	.animate-pulse-custom {
+    animation: pulse 2s infinite;
+  }
+
+	@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+	.animate-shake {
+    animation: shake 0.5s infinite;
+  }
 
 	@media (min-width: 50em) {
 		.hero {
