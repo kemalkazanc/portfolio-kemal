@@ -22,7 +22,7 @@ import { string } from 'astro/zod';
 			<section>
 				<section>
 					<h2 class="section-title">Background</h2>
-					<div class="content">
+					<div class="content-about">
 						<p>
 							Entamer ma carrière en développement en 2020 avec une première formation axée sur la conception d'applications PHP Symfony.
 						</p>
@@ -36,14 +36,14 @@ import { string } from 'astro/zod';
 				</section>
 				<section>
 					<h2 class="section-title">Education</h2>
-					<div class="content">
+					<div class="content-about">
 						<p>Niveau BAC+2 Management des Unités Commerciales</p>
 						<p>BAC +3/4 Développeur d'Application JavaScript React</p>
 					</div>
 				</section>
 				<section>
 					<h2 class="section-title">Skills</h2>
-					<div class="content">
+					<div class="content-about">
 						<p>Leader, Curieux, Créatif, Autonome, Organisé, Dynamique</p>
 					</div>
 				</section>
@@ -80,7 +80,7 @@ import { string } from 'astro/zod';
 section {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   color: var(--gray-200);
 }
 
@@ -89,7 +89,7 @@ section {
   color: var(--gray-0);
 }
 
-.content {
+.content-about {
 	margin-bottom: 1.5rem;
 }
 /* Réglages pour les tailles d'écran plus petites (en-dessous de 50em) */
