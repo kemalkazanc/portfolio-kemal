@@ -4,7 +4,6 @@ import projectsData from "../data/projects.json";
 const Project = () => {
   return (
     <section className="px-4">
-      {" "}
       {/* Ajout d'une marge à droite et à gauche */}
       <div className="mt-12 mb-12 border-b flex flex-col md:flex-row border-gray-800 wrapper justify-between pb-8">
         <h2 className="text-4xl font-bold mb-4 md:mb-0 md:mr-4">Mes Projets</h2>
@@ -14,13 +13,22 @@ const Project = () => {
         {projectsData.map((project, index) => (
           <div className="mt-12" key={project.id}>
             <div className="flex flex-col md:flex-row items-center">
-              <img
-                className="w-48 h-36 mb-4 md:w-60 md:h-44 md:mr-4 rounded-md drop-shadow-2xl"
-                src={project.image}
-                alt={project.name}
-              />
+              <a
+                href={project.externalLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="w-48 h-36 mb-4 md:w-60 md:h-44 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover"
+                    src={project.image}
+                    alt={project.name}
+                  />
+                </div>
+              </a>
               <div>
-                <h3 className="text-3xl font-semibold mb-4 ">{project.name}</h3>
+                <h3 className="text-3xl font-semibold mb-4">{project.name}</h3>
                 <p className="text-gray-600">{project.description}</p>
               </div>
             </div>
