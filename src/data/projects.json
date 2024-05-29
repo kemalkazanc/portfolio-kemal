@@ -30,7 +30,7 @@
   {
     "id": 5,
     "name": "Project Fisheye",
-    "description": "est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai récupéré des données à partir d'un fichier JSON en utilisant la méthode fetch. ",
+    "description": "Fisheyes est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai récupéré des données à partir d'un fichier JSON en utilisant la méthode fetch. ",
     "image": "/assets/Fisheyes.png",
     "externalLink": "https://kemalkazanc.github.io/Fisheyes/"
   },
@@ -44,7 +44,7 @@
   {
     "id": 7,
     "name": "Project Killer de Bulle",
-    "description": "J'ai développé un jeu en JavaScript où l'objectif est d'éclater un maximum de bulles.",
+    "description": "Killer de Bulle est un jeu que j'ai développé en JavaScript où l'objectif est d'éclater un maximum de bulles.",
     "image": "/assets/KillerDeBulle.png ",
     "externalLink": "https://kemalkazanc.github.io/GenerateurDeBulles/"
   },
