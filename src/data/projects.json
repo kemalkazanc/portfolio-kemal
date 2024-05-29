@@ -10,7 +10,7 @@
     "id": 2,
     "name": "Project Booki",
     "description": "Booki est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS, avec pour mission principale l'intégration d'une interface responsive.",
-    "image": "/assets/Booki.png",
+    "image": "/assets/Booki.webp",
     "externalLink": "https://kemalkazanc.github.io/Booki/"
   },
   {
@@ -31,7 +31,7 @@
     "id": 5,
     "name": "Project Fisheye",
     "description": "Fisheyes est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai récupéré des données à partir d'un fichier JSON en utilisant la méthode fetch. ",
-    "image": "/assets/Fisheyes.png",
+    "image": "/assets/Fisheyes.webp",
     "externalLink": "https://kemalkazanc.github.io/Fisheyes/"
   },
   {
@@ -44,7 +44,7 @@
   {
     "id": 7,
     "name": "Project Killer de Bulle",
-    "description": "Killer de Bulle est un jeu que j'ai développé en JavaScript où l'objectif est d'éclater un maximum de bulles.",
+    "description": "Killer de Bulle est un jeu que j'ai développé un jeu en JavaScript où l'objectif est d'éclater un maximum de bulles.",
     "image": "/assets/KillerDeBulle.png ",
     "externalLink": "https://kemalkazanc.github.io/GenerateurDeBulles/"
   },
@@ -52,7 +52,7 @@
     "id": 8,
     "name": "Project Hellium",
     "description": "Intégration d’une maquette Figma en HTML & CSS",
-    "image": "/assets/Helium.png ",
+    "image": "/assets/Helium.webp ",
     "externalLink": "https://kemalkazanc.github.io/IntegrationMaquetteHelium/"
   },
   {
@@ -66,7 +66,7 @@
     "id": 10,
     "name": "Project Argent Bank",
     "description": "Argent Bank est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. À partir d'une maquette fournie, j'ai développé une application web avec authentification des utilisateurs en utilisant HTML, CSS, JavaScript, React, React Router, Redux, Sass, et une API. ",
-    "image": "/assets/ArgentBank.png ",
+    "image": "/assets/ArgentBank.webp ",
     "externalLink": "https://github.com/kemalkazanc/ArgentBank_P13_2023"
   },
   {

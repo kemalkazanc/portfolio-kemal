@@ -51,23 +51,23 @@ const projects = (await getCollection('work'))
 						alt="Kemal Kazanc Home Picture"
 						width="290"
 						height="290"
-						src="/assets/Kemal-work.jpg"
+						src="/assets/Kemal-work.webp"
 					/>
 				</div>
 			</header>
-			<div class="download">
-				<a href="/chemin/vers/mon-fichier.pdf" download="KemalCV.pdf" class="btn">
-					<button class="h-12 mx-2 w-64 bg-gradient-to-br gap-2 from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600  text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 animate-shake">
-						<Icon icon="Download-logo" size="1.33em" />
-						Télécharger CV
-					</button>
+			<div class="download flex flex-col items-center sm:flex-row sm:items-center gap-5">
+				<a href="/chemin/vers/mon-fichier.pdf" download="KemalCV.pdf" class="w-full sm:w-auto mb-6 sm:mb-0 sm:mr-4">
+						<button class="h-12 w-full sm:w-64 bg-gradient-to-br gap-2 from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600 text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 sm:animate-shake">
+								<Icon icon="Download-logo" size="1.33em" />
+								Télécharger CV
+						</button>
 				</a>
-				<button class="h-12 mx-2 w-64 bg-gradient-to-br gap-2 from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600 text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 animate-pulse">
-					<Icon icon="Download-logo" size="1.33em" />
-					Voir CV
+				<button class="h-12 w-full sm:w-64 bg-gradient-to-br gap-2 from-gray-800 to-gray-900 flex justify-center items-center font-mono border border-gray-600 text-gray-500 transition duration-500 ease-in-out rounded-md shadow-md hover:shadow-2xl hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 sm:animate-pulse">
+						<Icon icon="Download-logo" size="1.33em" />
+						Voir CV
 				</button>
-
 		</div>
+
 			<Skills />
 		</div>
 
