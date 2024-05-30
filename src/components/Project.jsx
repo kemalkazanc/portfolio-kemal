@@ -19,16 +19,25 @@ const Project = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="w-full md:w-60 h-36 md:h-44 mb-4 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
-                  <img
-                    className="object-cover rounded-md w-full h-full"
-                    src={project.image}
-                    alt={project.name}
-                  />
-                </div>
+                {project.image && ( // Vérifiez si l'image est définie
+                  <div className="w-48 h-36 mb-4 md:w-60 md:h-44 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
+                    <img
+                      className="object-cover rounded-md"
+                      src={project.image}
+                      alt={project.name}
+                    />
+                  </div>
+                )}
               </a>
               <div>
-                <h3 className="text-3xl font-semibold mb-4">{project.name}</h3>
+                <a
+                  href={project.externalLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-3xl font-semibold mb-4 hover:underline link-no-underline"
+                >
+                  {project.name}
+                </a>
                 <p className="text-gray-600">{project.description}</p>
               </div>
             </div>

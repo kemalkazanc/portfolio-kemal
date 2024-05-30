@@ -272,4 +272,10 @@ h5 {
   .lg\:gap-48 {
     gap: 12rem;
   }
+
+  /* Style Blog */
+  .link-no-underline {
+    color: inherit; /* Utilisez la couleur par défaut du texte */
+    text-decoration: none; /* Supprimez le soulignement du lien */
+  }
 }
