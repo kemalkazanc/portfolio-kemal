@@ -3,77 +3,84 @@
     "id": 1,
     "name": "Project Kasa",
     "description": "Kasa est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai créé la page d'accueil d'une agence de voyage en utilisant React & Sass, avec pour mission principale l'intégration d'une interface responsive.",
-    "image": "/assets/kasa.png",
     "externalLink": "https://github.com/kemalkazanc/Projet11_Kasa"
+  },
+  {
+    "id": 2,
+    "name": "Project Booki",
+    "description": "Booki est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS, avec pour mission principale l'intégration d'une interface responsive.",
+    "externalLink": "https://kemalkazanc.github.io/Booki/"
   },
   {
     "id": 3,
     "name": "Project Oh My Food",
     "description": "Oh My Food est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai implémenté des animations CSS en utilisant SASS et versionné le projet avec Git et GitHub. Ma tâche principale était d'intégrer une maquette en mobile-first.",
-    "image": "/assets/OhMyFood.png",
     "externalLink": "https://kemalkazanc.github.io/Ohmyfood/"
   },
   {
     "id": 4,
     "name": "Project Game On",
     "description": "Game On est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai réalisé un formulaire interactif en utilisant JavaScript.",
-    "image": "/assets/GameOn.png",
     "externalLink": "https://kemalkazanc.github.io/GameOn/"
   },
   {
     "id": 5,
     "name": "Project Fisheye",
     "description": "Fisheyes est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai récupéré des données à partir d'un fichier JSON en utilisant la méthode fetch. ",
-    "image": "/assets/Fisheyes.webp",
     "externalLink": "https://kemalkazanc.github.io/Fisheyes/"
+  },
+  {
+    "id": 6,
+    "name": "Project Les Petits Plats",
+    "description": "Les Petits Plats est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai développé un site permettant de trouver les ingrédients nécessaires pour des recettes de cuisine, avec une interface fluide et un moteur de recherche performant.",
+    "externalLink": "https://kemalkazanc.github.io/LesPetitsPlats_P7_OP/"
   },
   {
     "id": 7,
     "name": "Project Killer de Bulle",
     "description": "Killer de Bulle est un jeu que j'ai développé un jeu en JavaScript où l'objectif est d'éclater un maximum de bulles.",
-    "image": "/assets/KillerDeBulle.png ",
     "externalLink": "https://kemalkazanc.github.io/GenerateurDeBulles/"
   },
   {
     "id": 8,
     "name": "Project Hellium",
     "description": "Intégration d’une maquette Figma en HTML & CSS",
-    "image": "/assets/Helium.webp ",
     "externalLink": "https://kemalkazanc.github.io/IntegrationMaquetteHelium/"
   },
   {
     "id": 9,
     "name": "Project SportSee",
     "description": "SportSee est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai intégré des graphiques sur l’activité sportive de l’utilisateur en utilisant une librairie au choix, soit D3, soit Recharts.",
-    "image": "/assets/Sportsee.png ",
     "externalLink": "https://github.com/kemalkazanc/SportSee_12"
   },
   {
     "id": 10,
     "name": "Project Argent Bank",
     "description": "Argent Bank est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. À partir d'une maquette fournie, j'ai développé une application web avec authentification des utilisateurs en utilisant HTML, CSS, JavaScript, React, React Router, Redux, Sass, et une API. ",
-    "image": "/assets/ArgentBank.webp ",
     "externalLink": "https://github.com/kemalkazanc/ArgentBank_P13_2023"
   },
   {
     "id": 11,
     "name": "Project Slider React",
     "description": "Création d’un slider avec React",
-    "image": "/assets/Slider.png",
     "externalLink": "https://github.com/kemalkazanc/Slider-React"
   },
   {
     "id": 12,
     "name": "Project App Cinéma",
     "description": "Application Cinéma qui permet d’afficher les affiches de film",
-    "image": "",
     "externalLink": "https://github.com/kemalkazanc/App-Cinema"
   },
   {
     "id": 13,
     "name": "Project FrontEndMentor QRCode",
     "description": "J'ai relevé un défi du site Frontend Mentor, en créant un composant de code QR et en le rendant aussi proche que possible du design fourni.",
-    "image": "/assets/QRCode.png ",
     "externalLink": "https://example.com/project1"
+  },
+  {
+    "id": 14,
+    "name": "Project Site de Voyage",
+    "description": "Intégration d’une maquette Figma en HTML & CSS",
+    "externalLink": "https://kemalkazanc.github.io/SiteDeVoyage/"
   }
 ]
