@@ -21,7 +21,7 @@ const Project = () => {
               >
                 <div className="w-48 h-36 mb-4 md:w-60 md:h-44 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
                   <img
-                    className="w-full h-full object-cover"
+                    className="object-cover"
                     src={project.image}
                     alt={project.name}
                   />
