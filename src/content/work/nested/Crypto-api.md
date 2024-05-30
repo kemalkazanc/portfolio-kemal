@@ -1,7 +1,7 @@
 ---
 title: Crypto-Api
 publishDate: 2024-05-15 15:00:00
-img: /assets/stock-3.jpg
+img: /assets/Crypto.jpeg
 img_alt: Photo du site Crypto
 description: |
 
