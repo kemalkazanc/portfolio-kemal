@@ -19,9 +19,9 @@ const Project = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="w-48 h-36 mb-4 md:w-60 md:h-44 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
+                <div className="w-full md:w-60 h-36 md:h-44 mb-4 md:mr-4 rounded-md drop-shadow-2xl overflow-hidden">
                   <img
-                    className="object-cover rounded-md"
+                    className="object-cover rounded-md w-full h-full"
                     src={project.image}
                     alt={project.name}
                   />
