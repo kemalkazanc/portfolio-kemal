@@ -7,13 +7,6 @@
     "externalLink": "https://github.com/kemalkazanc/Projet11_Kasa"
   },
   {
-    "id": 2,
-    "name": "Project Booki",
-    "description": "Booki est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS, avec pour mission principale l'intégration d'une interface responsive.",
-    "image": "/assets/Booki.webp",
-    "externalLink": "https://kemalkazanc.github.io/Booki/"
-  },
-  {
     "id": 3,
     "name": "Project Oh My Food",
     "description": "Oh My Food est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai implémenté des animations CSS en utilisant SASS et versionné le projet avec Git et GitHub. Ma tâche principale était d'intégrer une maquette en mobile-first.",
@@ -33,13 +26,6 @@
     "description": "Fisheyes est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai récupéré des données à partir d'un fichier JSON en utilisant la méthode fetch. ",
     "image": "/assets/Fisheyes.webp",
     "externalLink": "https://kemalkazanc.github.io/Fisheyes/"
-  },
-  {
-    "id": 6,
-    "name": "Project Les Petits Plats",
-    "description": "Les Petits Plats est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai développé un site permettant de trouver les ingrédients nécessaires pour des recettes de cuisine, avec une interface fluide et un moteur de recherche performant.",
-    "image": "/assets/LesPetitsPlats.png",
-    "externalLink": "https://kemalkazanc.github.io/LesPetitsPlats_P7_OP/"
   },
   {
     "id": 7,
@@ -89,12 +75,5 @@
     "description": "J'ai relevé un défi du site Frontend Mentor, en créant un composant de code QR et en le rendant aussi proche que possible du design fourni.",
     "image": "/assets/QRCode.png ",
     "externalLink": "https://example.com/project1"
-  },
-  {
-    "id": 14,
-    "name": "Project Site de Voyage",
-    "description": "Intégration d’une maquette Figma en HTML & CSS",
-    "image": "/assets/SiteVoyage.png",
-    "externalLink": "https://kemalkazanc.github.io/SiteDeVoyage/"
   }
 ]
