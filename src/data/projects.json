@@ -51,7 +51,7 @@
     "id": 9,
     "name": "Project SportSee",
     "description": "SportSee est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. J'ai intégré des graphiques sur l’activité sportive de l’utilisateur en utilisant une librairie au choix, soit D3, soit Recharts.",
-    "externalLink": "https://github.com/kemalkazanc/SportSee_12"
+    "externalLink": "https://projet12-sportsee.netlify.app/"
   },
   {
     "id": 10,
@@ -69,7 +69,7 @@
     "id": 12,
     "name": "Project App Cinéma",
     "description": "Application Cinéma qui permet d’afficher les affiches de film",
-    "externalLink": "https://github.com/kemalkazanc/App-Cinema"
+    "externalLink": "https://app-cinema.netlify.app/"
   },
   {
     "id": 13,
@@ -82,5 +82,11 @@
     "name": "Project Site de Voyage",
     "description": "Intégration d’une maquette Figma en HTML & CSS",
     "externalLink": "https://kemalkazanc.github.io/SiteDeVoyage/"
+  },
+  {
+    "id": 14,
+    "name": "Project Site de Voyage",
+    "description": "Wealth Health Argent Bank est un projet que j'ai réalisé dans le cadre de ma formation de Développeur Front-end chez OpenClassrooms. L'objectif du projet était de convertir du code JQuery en code React.",
+    "externalLink": "https://projet14-wealthhealth.netlify.app/"
   }
 ]
