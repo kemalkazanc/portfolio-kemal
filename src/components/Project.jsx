@@ -7,6 +7,7 @@ const Project = () => {
       {/* Ajout d'une marge à droite et à gauche */}
       <div className="mt-12 mb-12 border-b flex flex-col md:flex-row border-gray-800 wrapper justify-between pb-8">
         <h2 className="text-4xl font-bold mb-4 md:mb-0 md:mr-4">Mes Projets</h2>
+        <h1>Test</h1>
         <p className="text-xl">Parcourez mes réalisations</p>
       </div>
       <div className="max-w-83rem max-w-prose mx-auto">
