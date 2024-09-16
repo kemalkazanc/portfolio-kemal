@@ -13,6 +13,7 @@ const Project = () => {
         {projectsData.map((project, index) => (
           <div className="mt-12" key={project.id}>
             <div className="flex flex-col md:flex-row items-center">
+              <h1>Update github test </h1>
               <a
                 href={project.externalLink}
                 target="_blank"
